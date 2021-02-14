@@ -1,0 +1,78 @@
+/* Full gallery div including headshot (from homepage.css) */
+.techGallery {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	padding-top: 5vh;
+}
+
+/* Group of tech icons as whole */
+.techIcon {
+	position: relative;
+	width: 5%;
+	height: 5%;
+	filter: grayscale(100%);
+	transition-duration: 0.5s;
+}
+.techIcon:hover {
+	filter: grayscale(0%);
+	transition-duration: 0.5s;
+	transform: scale(1.1);
+}
+
+/* Individual Icons */
+
+#js {
+	left: 3vh;
+	top: 55vh;
+}
+#node {
+	left: 5vh;
+	top: 39vh;
+	width: 12%;
+	height: 12%;
+}
+#express {
+	left: 3vh;
+	top: 58vh;
+	width: 15%;
+	height: 15%;
+}
+#mongo {
+	right: 30vh;
+	top: 6vh;
+	width: 8%;
+	height: 8%;
+}
+#mysql {
+	top: 26vh;
+	right: 23vh;
+	width: 12%;
+	height: 12%;
+}
+#html {
+	right: 36vh;
+	top: 8vh;
+}
+#css {
+	right: 20vh;
+	top: 48vh;
+}
+#github {
+	right: 20vh;
+	top: 4vh;
+	width: 6%;
+	height: 6%;
+}
+#react {
+	right: 36vh;
+	top: 21vh;
+	width: 7%;
+	height: 7%;
+}
+#handlebars {
+	top: 22vh;
+	right: 114vh;
+	width: 9%;
+	height: 9%;
+}

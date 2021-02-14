@@ -1,0 +1,103 @@
+#Tag {
+	padding-top: 2rem;
+}
+
+/* Header div containing logo, name, and occupation tag */
+#NameTag {
+	font-size: 18vh;
+}
+
+#logo {
+	max-height: 20vh;
+	max-width: 20vh;
+	padding-bottom: 2rem;
+}
+#logo:hover {
+	animation: shake 0.5s;
+}
+@keyframes shake {
+	0% {
+		transform: translate(1px, 1px) rotate(0deg);
+	}
+	10% {
+		transform: translate(-1px, -2px) rotate(-1deg);
+	}
+	20% {
+		transform: translate(-3px, 0px) rotate(1deg);
+	}
+	30% {
+		transform: translate(3px, 2px) rotate(0deg);
+	}
+	40% {
+		transform: translate(1px, -1px) rotate(1deg);
+	}
+	50% {
+		transform: translate(-1px, 2px) rotate(-1deg);
+	}
+	60% {
+		transform: translate(-3px, 1px) rotate(0deg);
+	}
+	70% {
+		transform: translate(3px, 1px) rotate(-1deg);
+	}
+	80% {
+		transform: translate(-1px, -1px) rotate(1deg);
+	}
+	90% {
+		transform: translate(1px, 2px) rotate(0deg);
+	}
+	100% {
+		transform: translate(1px, -2px) rotate(-1deg);
+	}
+}
+
+#bubble {
+	position: absolute;
+	overflow: hidden;
+	left: 5vh;
+	max-height: 10%;
+	max-width: 10%;
+	display: none;
+}
+
+#logo:hover + img {
+	display: inline;
+}
+
+#DevTag {
+	position: relative;
+	padding-left: 17.5vh;
+	font-size: 4vh;
+
+	color: rgba(255, 255, 255, 0.349);
+}
+
+/* IMAGE DIV containing technology icons and personal headshot */
+
+#headshot {
+	position: relative;
+	right: 40vh;
+	height: 40%;
+	width: 40%;
+	padding-top: 3rem;
+	filter: grayscale(100%);
+	transition-duration: 10s;
+}
+#headshot:hover {
+	filter: grayscale(0%);
+	transition-duration: 1s;
+}
+
+#statement {
+	padding-top: 8rem;
+	color: white;
+	text-shadow: 2px 2px #000000;
+}
+
+h4 {
+	font-size: 300%;
+}
+
+p {
+	font-size: 200%;
+}
