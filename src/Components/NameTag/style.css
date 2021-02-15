@@ -74,20 +74,6 @@
 
 /* IMAGE DIV containing technology icons and personal headshot */
 
-#headshot {
-	position: relative;
-	right: 40vh;
-	height: 40%;
-	width: 40%;
-	padding-top: 3rem;
-	filter: grayscale(100%);
-	transition-duration: 10s;
-}
-#headshot:hover {
-	filter: grayscale(0%);
-	transition-duration: 1s;
-}
-
 #statement {
 	padding-top: 8rem;
 	color: white;
