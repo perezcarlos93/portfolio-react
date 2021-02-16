@@ -1,7 +1,97 @@
 /* Full gallery div including headshot (from homepage.css) */
-.techGallery {
+/* .techGallery {
 	display: flex;
 	flex-wrap: nowrap;
+	flex-direction: row;
+	padding-top: 5vh;
+} */
+
+/* Group of tech icons as whole */
+/* .techIcon {
+	position: relative;
+	width: 10%;
+	height: 10%;
+	filter: grayscale(100%);
+	transition-duration: 0.5s;
+}
+.techIcon:hover {
+	filter: grayscale(0%);
+	transition-duration: 0.5s;
+	transform: scale(1.1);
+} */
+
+/* Headshot */
+
+/* #headshot {
+	position: relative;
+	height: 90%;
+	width: 90%;
+	filter: grayscale(100%);
+	transition-duration: 10s;
+}
+#headshot:hover {
+	filter: grayscale(0%);
+	transition-duration: 1s;
+} */
+
+/* Individual Icons */
+
+/* #js {
+	left: 8vh;
+	top: 55vh;
+}
+#node {
+	left: 5vh;
+	top: 28vh;
+	width: 18%;
+	height: 12%;
+}
+#express {
+	left: 3vh;
+	top: 65vh;
+	width: 27%;
+}
+#mongo {
+	right: 32vh;
+	top: 6vh;
+	width: 12%;
+	height: 12%;
+}
+#mysql {
+	top: 37vh;
+	right: 21vh;
+	width: 25%;
+	height: 15%;
+}
+#html {
+	right: 36vh;
+	top: 12vh;
+}
+#css {
+	right: 19vh;
+	top: 52vh;
+}
+#github {
+	right: 27vh;
+	top: 4vh;
+
+}
+#react {
+	right: 26vh;
+	top: 29vh;
+	width: 15%;
+}
+#handlebars {
+	top: 11vh;
+	right: 24vh;
+	width: 15%;
+}
+ */
+
+/* Full gallery div including headshot (from homepage.css) */
+.techGallery {
+	display: flex;
+	flex-wrap: wrap;
 	flex-direction: row;
 	padding-top: 5vh;
 }
@@ -24,9 +114,8 @@
 
 #headshot {
 	position: relative;
-	/* right: 40vh; */
-	height: 100%;
-	width: 100%;
+	height: 90%;
+	width: 90%;
 	filter: grayscale(100%);
 	transition-duration: 10s;
 }
@@ -38,12 +127,12 @@
 /* Individual Icons */
 
 #js {
-	left: 3vh;
-	top: 57vh;
+	left: 8vh;
+	top: 55vh;
 }
 #node {
 	left: 5vh;
-	top: 39vh;
+	top: 28vh;
 	width: 18%;
 	height: 12%;
 }
@@ -53,14 +142,14 @@
 	width: 27%;
 }
 #mongo {
-	right: 28vh;
+	right: 32vh;
 	top: 6vh;
 	width: 12%;
 	height: 12%;
 }
 #mysql {
-	top: 30vh;
-	right: 19vh;
+	top: 37vh;
+	right: 21vh;
 	width: 25%;
 	height: 15%;
 }
@@ -73,20 +162,16 @@
 	top: 52vh;
 }
 #github {
-	right: 25vh;
+	right: 27vh;
 	top: 4vh;
-	/* width: 6%;
-	height: 6%; */
 }
 #react {
 	right: 26vh;
-	top: 21vh;
+	top: 29vh;
 	width: 15%;
-	/* height: 7%; */
 }
 #handlebars {
-	top: 22vh;
-	right: 106vh;
+	top: 11vh;
+	right: 24vh;
 	width: 15%;
-	/* height: 9%; */
 }

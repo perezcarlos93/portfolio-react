@@ -30,6 +30,7 @@ const Gallery = () => {
 				<img src={css} alt="css" className="techIcon" id="css"></img>
 				<img src={github} alt="github" className="techIcon" id="github"></img>
 				<img src={react} alt="react" className="techIcon" id="react"></img>
+				<br></br>
 				<img
 					src={handlebars}
 					alt="handlebars"

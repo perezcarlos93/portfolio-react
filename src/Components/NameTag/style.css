@@ -60,7 +60,7 @@
 	display: none;
 }
 
-#logo:hover + img {
+#logo:hover + #bubble {
 	display: inline;
 }
 
