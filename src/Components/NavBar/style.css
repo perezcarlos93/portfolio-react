@@ -4,6 +4,9 @@
 	flex-direction: row;
 	flex-wrap: nowrap;
 }
+#navDiv {
+	margin-bottom: 5rem;
+}
 
 /* Custom Navbar logo */
 .logo {

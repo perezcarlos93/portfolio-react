@@ -5,19 +5,17 @@ import './public/css/App.css';
 import NavBar from './Components/NavBar';
 import Footer from './Components/Footer';
 import Homepage from './pages/Homepage';
+import AboutMe from './pages/AboutMe';
 import Wrapper from './Components/Wrapper';
 
 function App() {
 	return (
 		<div className="App">
 			<NavBar />
-			<br></br>
-			<br></br>
-			<br></br>
-			<br></br>
 			<Wrapper>
 				<Router>
 					<Route exact path="/" component={Homepage} />
+					<Route exact path="/aboutme" component={AboutMe} />
 				</Router>
 			</Wrapper>
 			<Footer />

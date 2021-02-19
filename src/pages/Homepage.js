@@ -2,6 +2,7 @@ import React from 'react';
 import { Row } from 'react-bootstrap';
 import Gallery from '../Components/Gallery';
 import NameTag from '../Components/NameTag';
+import Statement from '../Components/Statement';
 import Tag from '../Components/Tag';
 
 const Homepage = () => {
@@ -13,6 +14,7 @@ const Homepage = () => {
 				<Tag />
 				<br></br>
 				<Gallery />
+				<Statement />
 			</Row>
 		</div>
 	);

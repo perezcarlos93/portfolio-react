@@ -11,7 +11,7 @@ const NameTag = () => {
 	}
 
 	return (
-		<div classNamea="row Tag">
+		<div className="row Tag">
 			<h1 className="oneday" id="NameTag">
 				<img id="logo" src={logo} alt="cp" onClick={handleHover}></img> Carlos
 				Perez
