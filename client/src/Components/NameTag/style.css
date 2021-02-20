@@ -1,11 +1,16 @@
-#title {
+#Tag {
+	padding-top: 2rem;
+}
+
+/* Header div containing logo, name, and occupation tag */
+#NameTag {
 	font-size: 18vh;
 }
+
 #logo {
 	max-height: 20vh;
 	max-width: 20vh;
 	padding-bottom: 2rem;
-	padding-left: 1rem;
 }
 #logo:hover {
 	animation: shake 0.5s;
@@ -46,45 +51,31 @@
 	}
 }
 
-/* pop up *sniff* when hovering over */
-#sniff {
-	position: relative;
-	right: 20vh;
-	bottom: 6vh;
-	max-height: 15%;
-	max-width: 15%;
+#bubble {
+	position: absolute;
+	overflow: hidden;
+	left: 5vh;
+	max-height: 10%;
+	max-width: 10%;
 	display: none;
-	transform: rotate(-20deg);
 }
 
-#logo:hover + img {
+#logo:hover + #bubble {
 	display: inline;
-	transition: opacity 0s 1s;
 }
 
-/* H5 title tags */
-h5 {
+#DevTag {
 	position: relative;
-	font-size: 6vh;
+	padding-left: 17.5vh;
+	font-size: 4vh;
+
 	color: rgba(255, 255, 255, 0.349);
-	transition: 3s;
-	text-shadow: 2px 2px #000000;
 }
-h5:hover {
+
+/* IMAGE DIV containing technology icons and personal headshot */
+
+#statement {
+	padding-top: 8rem;
 	color: white;
-	transition: 0.5s;
-}
-/* "The Quick Bits" list */
-ul,
-#theDetails {
-	list-style-type: none;
-	color: white;
-	font-size: 3vh;
 	text-shadow: 2px 2px #000000;
-}
-li {
-	padding-bottom: 1rem;
-}
-.bio {
-	font-size: 120%;
 }

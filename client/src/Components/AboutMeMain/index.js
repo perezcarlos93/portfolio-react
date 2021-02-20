@@ -16,7 +16,7 @@ const AboutMeMain = () => {
 			<br></br>
 			<div className="content ebrima">
 				<div id="quickBits">
-					<h5>the quick bits</h5>
+					<h5 className="h5">the quick bits</h5>
 					<br></br>
 					<ul>
 						<li>Born and raised in Los Angeles</li>
@@ -29,7 +29,7 @@ const AboutMeMain = () => {
 				</div>
 				<br></br>
 				<div id="theDetails" className="ebrima">
-					<h5>the details</h5>
+					<h5 className="h5">the details</h5>
 					<br></br>
 					<p className="bio">
 						From an early age, the world of computers, electronics, and

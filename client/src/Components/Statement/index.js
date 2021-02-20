@@ -1,9 +1,10 @@
 import React from 'react';
+import './style.css';
 
 const Statement = () => {
 	return (
 		<div id="statement">
-			<h4 id="" className="oneday">
+			<h4 id="h4" className="oneday">
 				Hello, and welcome to my page
 			</h4>
 			<br></br>
