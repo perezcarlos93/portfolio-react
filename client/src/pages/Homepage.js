@@ -9,7 +9,7 @@ const Homepage = () => {
 	return (
 		<div>
 			<Row>
-				<NameTag />
+				<NameTag name="Carlos Perez" />
 				<br></br>
 				<Tag />
 				<br></br>

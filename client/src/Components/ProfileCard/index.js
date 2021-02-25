@@ -12,28 +12,34 @@ const ProfileCard = (props) => {
 			<br></br>
 			<ul>
 				<li>
-					<span className="oneday profileSpan">Company: </span>
-					{props.company}
+					<span className="oneday profileSpan">
+						<strong>Location: </strong>
+					</span>
+					<span className="ebrima profileSpan"> {props.location}</span>
 				</li>
 				<li>
-					<span className="oneday profileSpan">Location: </span>
-					{props.location}
+					<span className="oneday profileSpan">
+						<strong>Email: </strong>
+					</span>
+					<span className="ebrima profileSpan"> {props.email}</span>
 				</li>
 				<li>
-					<span className="oneday profileSpan">Email: </span>
-					{props.email}
+					<span className="oneday profileSpan">
+						<strong>Bio:</strong>{' '}
+					</span>
+					<span className="ebrima profileSpan"> {props.bio} </span>
 				</li>
-				<br></br>
 				<li>
-					<span className="oneday profileSpan">Bio: </span>
-					{props.bio}
-				</li>
-				<br></br>
-				<li>
-					<span className="oneday profileSpan">Repos: </span>
-					{props.public_repos}
+					<span className="oneday profileSpan">
+						<strong>Repos:</strong>{' '}
+					</span>
+					<span className="ebrima profileSpan">{props.public_repos} </span>
 				</li>
 			</ul>
+			<br></br>
+			<div>
+				<h1 className="oneday"> Top Projects</h1>
+			</div>
 		</div>
 	);
 };

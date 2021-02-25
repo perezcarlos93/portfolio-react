@@ -6,6 +6,7 @@ import NavBar from './Components/NavBar';
 import Footer from './Components/Footer';
 import Homepage from './pages/Homepage';
 import AboutMe from './pages/AboutMe';
+import ContactMe from './pages/ContactMe';
 import Projects from './pages/Projects';
 import Container from './Components/Container';
 
@@ -18,6 +19,7 @@ function App() {
 					<Route exact path="/" component={Homepage} />
 					<Route exact path="/aboutme" component={AboutMe} />
 					<Route exact path="/projects" component={Projects} />
+					<Route exact path="/contactme" component={ContactMe} />
 				</Router>
 			</Container>
 			<Footer />
