@@ -37,6 +37,8 @@ const ProfileCard = (props) => {
 				</li>
 			</ul>
 			<br></br>
+			<br></br>
+			<br></br>
 			<div>
 				<h1 className="oneday"> Top Projects</h1>
 			</div>

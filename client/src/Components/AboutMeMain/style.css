@@ -65,7 +65,7 @@
 /* H5 title tags */
 .h5 {
 	position: relative;
-	font-size: 6vh;
+	font-size: 50px;
 	color: rgba(255, 255, 255, 0.349);
 	transition: 3s;
 	text-shadow: 2px 2px #000000;
@@ -79,12 +79,9 @@ ul,
 #theDetails {
 	list-style-type: none;
 	color: white;
-	font-size: 3vh;
+	font-size: 25px;
 	text-shadow: 2px 2px #000000;
 }
 li {
 	padding-bottom: 1rem;
-}
-.bio {
-	font-size: 120%;
 }

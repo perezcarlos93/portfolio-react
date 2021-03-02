@@ -12,11 +12,13 @@ const ProjectCard = (props) => {
 					{props.repo_name}
 				</a>
 				<br></br>
-				<p className="pitch ebrima">{props.pitch}</p>
-				<p className="description ebrima">{props.description}</p>
-				<br></br>
-				<h4 className="contributions ebrima">{props.contributions}</h4>
-				<h3 className="deployed embrima link">{props.deployed}</h3>
+				<div className="projectInfo">
+					<p className="pitch ebrima">{props.pitch}</p>
+					<p className="description ebrima">{props.description}</p>
+					<br></br>
+					<h4 className="contributions ebrima">{props.contributions}</h4>
+					<h3 className="deployed embrima link">{props.deployed}</h3>
+				</div>
 			</div>
 			<img className="repoImg" alt={ComradeBear} src={props.image}></img>
 		</div>
