@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/perezcarlos93/portfolio-react/issues"
   },
-  "homepage": "https://github.com/perezcarlos93/portfolio-react#readme"
+  "homepage": "https://github.com/perezcarlos93/portfolio-react#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
