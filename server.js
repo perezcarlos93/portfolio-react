@@ -13,6 +13,7 @@ app.use(express.json());
 // });
 
 // Serve up static assets (usually on heroku)
+console.log('node environment', process.env.NODE_ENV);
 if (process.env.NODE_ENV === 'production') {
 	app.use(express.static('client/build'));
 }
