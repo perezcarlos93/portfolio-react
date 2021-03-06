@@ -8,12 +8,11 @@ app.use(express.json());
 
 const path = require('path');
 
-app.get('*', (req, res) => {
-	res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
-});
+// app.get('*', (req, res) => {
+// 	res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+// });
 
 // Serve up static assets (usually on heroku)
-console.log('node environment', process.env.NODE_ENV);
 if (process.env.NODE_ENV === 'production') {
 	app.use(express.static('client/build'));
 }
