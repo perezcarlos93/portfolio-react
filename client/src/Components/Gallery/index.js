@@ -3,13 +3,14 @@ import javascript from '../../public/Assets/tech/javascript-logo.png';
 import node from '../../public/Assets/tech/node-logo.png';
 import express from '../../public/Assets/tech/expressjs-logo.png';
 import mongodb from '../../public/Assets/tech/mongodb-logo.png';
+import mongoose from '../../public/Assets/tech/mongoose5.png';
 import mysql from '../../public/Assets/tech/mysql-logo.png';
 import html from '../../public/Assets/tech/html-logo.png';
 import css from '../../public/Assets/tech/css-logo.png';
 import github from '../../public/Assets/tech/github-logo.png';
 import react from '../../public/Assets/tech/react-logo.png';
 import handlebars from '../../public/Assets/tech/handlebars-logo.png';
-import headshot from '../../public/Assets/headshot.png';
+import headshot from '../../public/Assets/headshot_transparent.png';
 import './style.css';
 
 const Gallery = () => {
@@ -25,6 +26,12 @@ const Gallery = () => {
 					id="express"
 				></img>
 				<img src={mongodb} alt="mongodb" className="techIcon" id="mongo"></img>
+				<img
+					src={mongoose}
+					alt="mongoose"
+					className="techIcon"
+					id="mongoose"
+				></img>
 				<img src={mysql} alt="mysql" className="techIcon" id="mysql"></img>
 				<img src={html} alt="html" className="techIcon" id="html"></img>
 				<img src={css} alt="css" className="techIcon" id="css"></img>
