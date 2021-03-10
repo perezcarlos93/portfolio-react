@@ -30,6 +30,7 @@
 	filter: grayscale(100%);
 	transition-duration: 10s;
 	padding-top: 8vh;
+	margin: 0px 0px 100px 80px;
 }
 #headshot:hover {
 	filter: grayscale(0%);
@@ -39,55 +40,58 @@
 /* Individual Icons */
 
 #js {
-	left: 5vh;
-	top: 68vh;
-	height: 110px;
+	left: 50px;
+	top: 700px;
+	height: 120px;
+}
+#mongoose {
+	top: 50px;
+	width: 170px;
 }
 #node {
-	left: 3vh;
-	top: 25vh;
-	width: 18%;
-	height: 12%;
+	left: 30px;
+	top: 280px;
+	width: 180px;
+	height: 110px;
 }
 #express {
-	left: 10vh;
-	top: 65vh;
-	width: 27%;
+	left: 50px;
+	top: 750px;
+	width: 250px;
 }
 #mongo {
-	right: 20vh;
-	top: 6vh;
-	width: 12%;
-	height: 12%;
+	right: 170px;
+	top: 70px;
+	width: 130px;
+	height: 130px;
 }
 #mysql {
-	top: 15vh;
-	right: 15vh;
-	width: 25%;
-	height: 15%;
+	top: 130px;
+	left: 620px;
+	width: 245px;
+	height: 150px;
 }
 #html {
-	/* right: 10vh; */
-	top: 4vh;
-	height: 110px;
+	top: 60px;
+	right: 25px;
+	height: 120px;
 }
 #css {
-	left: 60vh;
-	height: 110px;
-	/* top: 52vh; */
+	left: 190px;
+	bottom: 210px;
+	height: 120px;
 }
 #github {
-	left: 29vh;
-	bottom: 6vh;
-	width: 10%;
+	left: 300px;
+	bottom: 50px;
 }
 #react {
-	left: 57vh;
-	bottom: 20vh;
-	width: 12%;
+	left: 290px;
+	bottom: 260px;
+	width: 100px;
 }
 #handlebars {
-	bottom: vh;
-	right: 20vh;
-	width: 15%;
+	right: 200px;
+	width: 140px;
+	height: 110px;
 }

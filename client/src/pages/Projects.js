@@ -31,17 +31,17 @@ const Projects = () => {
 			deployed: '',
 			image: ComradeBear,
 		},
-		{
-			repo_name: 'Google Book Search',
-			repo: 'https://github.com/perezcarlos93/GoogleBooksSearch',
-			pitch:
-				'This online tool will help book lovers everywhere keep track of books they want to read',
-			description:
-				'The Google Book Search app gives its users access to the GoogleBooks API to return info on their favorite books, or books their interested in reading. From one search, the user can learn details about their searched book such as the author(s), a short synopsis, and an image of the front cover. Users can also save these books for future reference as well',
-			contributions: 'This app was a solo project for my UCI bootcamp',
-			deployed: '',
-			image: ComradeBear,
-		},
+		// {
+		// 	repo_name: 'Google Book Search',
+		// 	repo: 'https://github.com/perezcarlos93/GoogleBooksSearch',
+		// 	pitch:
+		// 		'This online tool will help book lovers everywhere keep track of books they want to read',
+		// 	description:
+		// 		'The Google Book Search app gives its users access to the GoogleBooks API to return info on their favorite books, or books their interested in reading. From one search, the user can learn details about their searched book such as the author(s), a short synopsis, and an image of the front cover. Users can also save these books for future reference as well',
+		// 	contributions: 'This app was a solo project for my UCI bootcamp',
+		// 	deployed: '',
+		// 	image: ComradeBear,
+		// },
 	];
 
 	return (
