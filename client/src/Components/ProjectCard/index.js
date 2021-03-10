@@ -17,7 +17,9 @@ const ProjectCard = (props) => {
 					<p className="description ebrima">{props.description}</p>
 					<br></br>
 					<h4 className="contributions ebrima">{props.contributions}</h4>
+					<br></br>
 					<h3 className="deployed embrima link">{props.deployed}</h3>
+					<h3 className="github embrima link">{props.github}</h3>
 				</div>
 			</div>
 			<img className="repoImg" alt={ComradeBear} src={props.image}></img>
