@@ -57,9 +57,9 @@ const AboutMeMain = () => {
 						realized that my industry would be impacted in a way that would
 						leave it crippled for years to come. This is when I decided to swim,
 						rather than sink, and took it as an opportunity to lear something
-						that had always peaked my interest, web-development. Now, one year
-						later, I am eager to funnel my love for computers, technology, and
-						electronics into a new field as a full-stack web-developer.
+						new that had always peaked my interest, web-development. Now, one
+						year later, I am eager to funnel my love for computers, technology,
+						and electronics into a new field as a full-stack web-developer.
 						<br></br>
 						<br></br>
 						Thank's for reading,
