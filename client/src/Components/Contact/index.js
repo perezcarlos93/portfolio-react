@@ -39,6 +39,13 @@ const Contact = () => {
 					</a>
 				</div>
 			</div>
+			<div className="contact link">
+				<button id="download">
+					<a className="link" href="./CPerez_Resume.pdf" download>
+						Download my resume
+					</a>
+				</button>
+			</div>
 		</div>
 	);
 };
