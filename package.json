@@ -28,6 +28,7 @@
   "homepage": "https://github.com/perezcarlos93/portfolio-react#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "if-env": "^1.0.4"
+    "if-env": "^1.0.4",
+    "js-file-download": "^0.4.12"
   }
 }
