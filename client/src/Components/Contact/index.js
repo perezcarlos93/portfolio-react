@@ -1,9 +1,14 @@
 // Contact.js
-
 import React from 'react';
 import './style.css';
+import Resume from './CPerez_Resume.pdf';
+const fileDownload = require('js-file-download');
 
 const Contact = () => {
+	// const download = () => {
+	// 	fileDownload('CPerez_Resume.pdf');
+	// };
+
 	return (
 		<div className="contactDiv">
 			<h1 className="ebrima">I'd love to chat! Here's my info:</h1>
@@ -41,7 +46,7 @@ const Contact = () => {
 			</div>
 			<div className="contact link">
 				<button id="download">
-					<a className="link" href="./CPerez_Resume.pdf" download>
+					<a className="link" href={Resume} download="./CPerez_Resume.pdf">
 						Download my resume
 					</a>
 				</button>
