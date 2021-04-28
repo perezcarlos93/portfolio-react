@@ -7,6 +7,8 @@
 
 /* Group of tech icons as whole */
 .techIcon {
+	padding: 20px;
+	margin: 20px;
 	position: relative;
 	width: 90px;
 	height: 90px;
@@ -17,6 +19,9 @@
 	filter: grayscale(0%);
 	transition-duration: 0.5s;
 	transform: scale(1.1);
+}
+.techCol {
+	margin: 10px;
 }
 
 /* Headshot */
@@ -39,58 +44,58 @@
 /* Individual Icons */
 
 #js {
-	left: 50px;
-	top: 700px;
+	/* left: 50px;
+	top: 700px; */
 	height: 120px;
 }
 #mongoose {
-	top: 50px;
+	/* top: 50px; */
 	width: 170px;
 }
 #node {
-	left: 30px;
-	top: 280px;
+	/* left: 30px;
+	top: 280px; */
 	width: 180px;
 	height: 110px;
 }
 #express {
-	left: 50px;
-	top: 750px;
+	/* left: 50px;
+	top: 750px; */
 	width: 250px;
 }
 #mongo {
-	right: 170px;
-	top: 70px;
+	/* right: 170px;
+	top: 70px; */
 	width: 130px;
 	height: 130px;
 }
 #mysql {
-	top: 130px;
-	left: 620px;
+	/* top: 130px;
+	left: 620px; */
 	width: 245px;
 	height: 150px;
 }
 #html {
-	top: 60px;
-	right: 25px;
+	/* top: 60px;
+	right: 25px; */
 	height: 120px;
 }
 #css {
-	left: 190px;
-	bottom: 210px;
+	/* left: 190px;
+	bottom: 210px; */
 	height: 120px;
 }
-#github {
+/* #github {
 	left: 300px;
 	bottom: 50px;
-}
+} */
 #react {
-	left: 290px;
-	bottom: 260px;
+	/* left: 290px;
+	bottom: 260px; */
 	width: 100px;
 }
 #handlebars {
-	right: 200px;
-	width: 140px;
+	/* right: 200px;
+	width: 140px; */
 	height: 110px;
 }

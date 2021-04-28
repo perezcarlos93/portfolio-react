@@ -17,33 +17,48 @@ const Gallery = () => {
 	return (
 		<div className="row">
 			<div className="techGallery col-6">
-				<img src={javascript} alt="js" className="techIcon" id="js"></img>
-				<img src={node} alt="node" className="techIcon" id="node"></img>
-				<img
-					src={express}
-					alt="express"
-					className="techIcon"
-					id="express"
-				></img>
-				<img src={mongodb} alt="mongodb" className="techIcon" id="mongo"></img>
-				<img
-					src={mongoose}
-					alt="mongoose"
-					className="techIcon"
-					id="mongoose"
-				></img>
-				<img src={mysql} alt="mysql" className="techIcon" id="mysql"></img>
-				<img src={html} alt="html" className="techIcon" id="html"></img>
-				<img src={css} alt="css" className="techIcon" id="css"></img>
-				<img src={github} alt="github" className="techIcon" id="github"></img>
-				<img src={react} alt="react" className="techIcon" id="react"></img>
+				<div className="col-2 techCol">
+					<img
+						src={mongodb}
+						alt="mongodb"
+						className="techIcon"
+						id="mongo"
+					></img>
+					<img
+						src={mongoose}
+						alt="mongoose"
+						className="techIcon"
+						id="mongoose"
+					></img>
+					<img src={mysql} alt="mysql" className="techIcon" id="mysql"></img>
+				</div>
 				<br></br>
-				<img
-					src={handlebars}
-					alt="handlebars"
-					className="techIcon"
-					id="handlebars"
-				></img>
+				<div className="col-2 techCol">
+					<img src={javascript} alt="js" className="techIcon" id="js"></img>
+					<img src={node} alt="node" className="techIcon" id="node"></img>
+					<img
+						src={express}
+						alt="express"
+						className="techIcon"
+						id="express"
+					></img>
+				</div>
+				<br></br>
+				<div className="col-2 techCol">
+					<img src={html} alt="html" className="techIcon" id="html"></img>
+					<img src={css} alt="css" className="techIcon" id="css"></img>
+					<img src={github} alt="github" className="techIcon" id="github"></img>
+				</div>
+				<br></br>
+				<div className="row">
+					<img src={react} alt="react" className="techIcon" id="react"></img>
+					<img
+						src={handlebars}
+						alt="handlebars"
+						className="techIcon"
+						id="handlebars"
+					></img>
+				</div>
 			</div>
 			<div className="col-6">
 				<img id="headshot" src={headshot} alt="headshot"></img>
