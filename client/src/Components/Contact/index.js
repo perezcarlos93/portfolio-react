@@ -45,8 +45,8 @@ const Contact = () => {
 				</div>
 			</div>
 			<div className="contact link">
-				<button id="download">
-					<a className="link" href={Resume} download="./CPerez_Resume.pdf">
+				<button className="download">
+					<a id="download" href={Resume} download="./CPerez_Resume.pdf">
 						Download my resume
 					</a>
 				</button>

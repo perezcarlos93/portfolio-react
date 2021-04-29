@@ -5,3 +5,20 @@
 	font-size: 160%;
 	padding-left: 2rem;
 }
+.download {
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	margin-top: 50px;
+	color: black;
+	border-radius: 10px;
+	background-color: lightgray;
+}
+.download:hover {
+	transition: 1s;
+	background-color: green;
+}
+#download {
+	color: white;
+	text-decoration: none;
+}

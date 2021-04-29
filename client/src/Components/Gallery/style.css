@@ -1,4 +1,3 @@
-/* Full gallery div including headshot (from homepage.css) */
 .techGallery {
 	display: flex;
 	flex-wrap: wrap;
@@ -9,26 +8,27 @@
 /* Group of tech icons as whole */
 .techIcon {
 	position: relative;
-	width: 90px;
-	height: 90px;
+	width: 11vh;
+	height: 11vh;
 	filter: grayscale(100%);
 	transition-duration: 0.5s;
 }
 .techIcon:hover {
 	filter: grayscale(0%);
 	transition-duration: 0.5s;
-	transform: scale(1.1);
+	transform: scale(1.2);
 }
 
 /* Headshot */
 
 #headshot {
 	position: relative;
-	height: 980px;
-	width: 755px;
+	height: 94vh;
+	width: 75vh;
+	left: 3vh;
 	border-radius: 20px;
 	filter: grayscale(100%);
-	transition-duration: 10s;
+	transition-duration: 1s;
 	padding-top: 8vh;
 	margin: 0px 0px 100px 80px;
 }
@@ -37,61 +37,115 @@
 	transition-duration: 1s;
 }
 
-/* Individual Icons */
+/* 1920 x 1080 Screens */
+@media screen and (min-width: 1920px) {
+	/* Individual Icons */
 
-#js {
-	left: 50px;
-	top: 700px;
-	height: 120px;
+	#js {
+		left: 7rem;
+		top: 43rem;
+		height: 9rem;
+	}
+	#mongoose {
+		top: 3rem;
+		width: 11.5rem;
+	}
+	#node {
+		left: 4rem;
+		top: 14rem;
+		width: 11rem;
+	}
+	#express {
+		left: 11rem;
+		top: 47rem;
+		width: 19.5rem;
+	}
+	#mongo {
+		right: 9rem;
+		top: 6rem;
+		width: 8.5rem;
+		height: 8.5rem;
+	}
+	#mysql {
+		left: 45rem;
+		width: 17rem;
+		height: 11rem;
+	}
+	#html {
+		bottom: 2rem;
+		right: 1rem;
+		height: 9rem;
+	}
+	#css {
+		left: 30rem;
+		bottom: 12rem;
+		height: 9rem;
+	}
+	#github {
+		left: 3rem;
+		top: 2rem;
+	}
+	#react {
+		left: 1rem;
+		bottom: 11rem;
+		width: 8rem;
+	}
 }
-#mongoose {
-	top: 50px;
-	width: 170px;
-}
-#node {
-	left: 30px;
-	top: 280px;
-	width: 180px;
-	height: 110px;
-}
-#express {
-	left: 50px;
-	top: 750px;
-	width: 250px;
-}
-#mongo {
-	right: 170px;
-	top: 70px;
-	width: 130px;
-	height: 130px;
-}
-#mysql {
-	top: 130px;
-	left: 620px;
-	width: 245px;
-	height: 150px;
-}
-#html {
-	top: 60px;
-	right: 25px;
-	height: 120px;
-}
-#css {
-	left: 190px;
-	bottom: 210px;
-	height: 120px;
-}
-#github {
-	left: 300px;
-	bottom: 50px;
-}
-#react {
-	left: 290px;
-	bottom: 260px;
-	width: 100px;
-}
-#handlebars {
-	right: 200px;
-	width: 140px;
-	height: 110px;
+
+/* 1280 x 720 Screens */
+@media screen and (min-width: 1280px) and (max-width: 1919px) {
+	/* Individual Icons */
+
+	#js {
+		left: 1rem;
+		top: 25rem;
+		height: 6rem;
+	}
+	#mongoose {
+		left: 29rem;
+		bottom: 12rem;
+		width: 8rem;
+	}
+	#node {
+		right: 1rem;
+		top: 9rem;
+		width: 8rem;
+		height: 5rem;
+	}
+	#express {
+		left: 3rem;
+		top: 29rem;
+		width: 13rem;
+	}
+	#mongo {
+		right: 9rem;
+		top: 3rem;
+		width: 6rem;
+		height: 6rem;
+	}
+	#mysql {
+		top: 4.5rem;
+		left: 18rem;
+		width: 13rem;
+		height: 8rem;
+	}
+	#html {
+		top: 4rem;
+		right: 13rem;
+		height: 6rem;
+	}
+	#css {
+		left: 9rem;
+		bottom: 2rem;
+		height: 6rem;
+	}
+	#github {
+		right: 11rem;
+		top: 6rem;
+	}
+	#react {
+		left: 22rem;
+		bottom: 17rem;
+		width: 5.5rem;
+	}
 }
