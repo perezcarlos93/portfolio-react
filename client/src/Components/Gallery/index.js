@@ -38,12 +38,12 @@ const Gallery = () => {
 				<img src={github} alt="github" className="techIcon" id="github"></img>
 				<img src={react} alt="react" className="techIcon" id="react"></img>
 				<br></br>
-				<img
+				{/* <img
 					src={handlebars}
 					alt="handlebars"
 					className="techIcon"
 					id="handlebars"
-				></img>
+				></img> */}
 			</div>
 			<div className="col-6">
 				<img id="headshot" src={headshot} alt="headshot"></img>
