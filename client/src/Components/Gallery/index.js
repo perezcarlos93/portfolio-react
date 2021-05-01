@@ -9,7 +9,7 @@ import html from '../../public/Assets/tech/html-logo.png';
 import css from '../../public/Assets/tech/css-logo.png';
 import github from '../../public/Assets/tech/github-logo.png';
 import react from '../../public/Assets/tech/react-logo.png';
-import handlebars from '../../public/Assets/tech/handlebars-logo.png';
+import bootstrap from '../../public/Assets/tech/bootstrap-logo.png';
 import headshot from '../../public/Assets/headshot_transparent.png';
 import './style.css';
 
@@ -18,24 +18,13 @@ const Gallery = () => {
 		<div className="row">
 			<div className="techGallery col-6">
 				<div className="col-2 techCol">
-					<img
-						src={mongodb}
-						alt="mongodb"
-						className="techIcon"
-						id="mongo"
-					></img>
-					<img
-						src={mongoose}
-						alt="mongoose"
-						className="techIcon"
-						id="mongoose"
-					></img>
-					<img src={mysql} alt="mysql" className="techIcon" id="mysql"></img>
-				</div>
-				<br></br>
-				<div className="col-2 techCol">
+					{/* JavaScript */}
 					<img src={javascript} alt="js" className="techIcon" id="js"></img>
+					{/* Node */}
 					<img src={node} alt="node" className="techIcon" id="node"></img>
+					{/* React */}
+					<img src={react} alt="react" className="techIcon" id="react"></img>
+					{/* Express */}
 					<img
 						src={express}
 						alt="express"
@@ -45,20 +34,40 @@ const Gallery = () => {
 				</div>
 				<br></br>
 				<div className="col-2 techCol">
-					<img src={html} alt="html" className="techIcon" id="html"></img>
-					<img src={css} alt="css" className="techIcon" id="css"></img>
+					{/* MongoDB */}
+					<img
+						src={mongodb}
+						alt="mongodb"
+						className="techIcon"
+						id="mongo"
+					></img>
+					{/* Mongoose */}
+					<img
+						src={mongoose}
+						alt="mongoose"
+						className="techIcon"
+						id="mongoose"
+					></img>
+					{/* MySQL */}
+					<img src={mysql} alt="mysql" className="techIcon" id="mysql"></img>
+					{/* GitHub */}
 					<img src={github} alt="github" className="techIcon" id="github"></img>
 				</div>
 				<br></br>
-				<div className="row">
-					<img src={react} alt="react" className="techIcon" id="react"></img>
+				<div className="col-2 techCol">
+					{/* HTML */}
+					<img src={html} alt="html" className="techIcon" id="html"></img>
+					{/* CSS */}
+					<img src={css} alt="css" className="techIcon" id="css"></img>
+					{/* Bootstrap */}
 					<img
-						src={handlebars}
-						alt="handlebars"
+						src={bootstrap}
+						alt="bootstrap"
 						className="techIcon"
-						id="handlebars"
+						id="bootstrap"
 					></img>
 				</div>
+				<br></br>
 			</div>
 			<div className="col-6">
 				<img id="headshot" src={headshot} alt="headshot"></img>

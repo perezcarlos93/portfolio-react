@@ -2,16 +2,13 @@
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	padding-top: 8vh;
+	padding-top: 10rem;
 }
 
 /* Group of tech icons as whole */
 .techIcon {
-	padding: 20px;
-	margin: 20px;
+	margin-bottom: 6rem;
 	position: relative;
-	width: 90px;
-	height: 90px;
 	filter: grayscale(100%);
 	transition-duration: 0.5s;
 }
@@ -21,15 +18,21 @@
 	transform: scale(1.1);
 }
 .techCol {
-	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-items: space-between;
+	margin: 0rem 3vw 0rem 3vw;
 }
 
 /* Headshot */
 
 #headshot {
 	position: relative;
-	height: 980px;
-	width: 755px;
+	max-width: 80%;
+	height: auto;
+	width: auto;
 	border-radius: 20px;
 	filter: grayscale(100%);
 	transition-duration: 10s;
@@ -44,58 +47,72 @@
 /* Individual Icons */
 
 #js {
-	/* left: 50px;
-	top: 700px; */
-	height: 120px;
+	max-width: 75%;
+	height: auto;
+	width: auto;
 }
 #mongoose {
-	/* top: 50px; */
-	width: 170px;
+	/* width: 12rem; */
+	max-width: 150%;
+	height: auto;
+	width: auto;
+	margin-top: 1rem;
+	margin-bottom: 5rem;
 }
 #node {
-	/* left: 30px;
-	top: 280px; */
-	width: 180px;
-	height: 110px;
+	/* width: 10rem;
+	height: 6rem; */
+	max-width: 130%;
+	height: auto;
+	width: auto;
 }
 #express {
-	/* left: 50px;
-	top: 750px; */
-	width: 250px;
+	/* height: 4rem;
+	width: 11.5rem; */
+	max-width: 160%;
+	height: auto;
+	width: auto;
 }
 #mongo {
-	/* right: 170px;
-	top: 70px; */
-	width: 130px;
-	height: 130px;
+	max-width: 110%;
+	height: auto;
+	width: auto;
+	/* width: 130px;
+	height: 130px; */
 }
 #mysql {
-	/* top: 130px;
-	left: 620px; */
-	width: 245px;
-	height: 150px;
+	max-width: 140%;
+	height: auto;
+	width: auto;
+	/* width: 10rem;
+	height: 6rem; */
 }
 #html {
 	/* top: 60px;
 	right: 25px; */
-	height: 120px;
+	max-width: 75%;
+	height: auto;
+	width: auto;
 }
 #css {
 	/* left: 190px;
 	bottom: 210px; */
-	height: 120px;
+	max-width: 75%;
+	height: auto;
+	width: auto;
 }
-/* #github {
-	left: 300px;
-	bottom: 50px;
-} */
+#github {
+	max-width: 70%;
+	height: auto;
+	width: auto;
+}
 #react {
-	/* left: 290px;
-	bottom: 260px; */
-	width: 100px;
+	max-width: 100%;
+	height: auto;
+	width: auto;
 }
-#handlebars {
-	/* right: 200px;
-	width: 140px; */
-	height: 110px;
+#bootstrap {
+	max-width: 70%;
+	height: auto;
+	width: auto;
 }
