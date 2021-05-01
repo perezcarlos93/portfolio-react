@@ -54,14 +54,6 @@ const Projects = () => {
 
 	return (
 		<Container>
-			{/* <ProfileCard
-				login={profile.login}
-				html_url={profile.html_url}
-				location={profile.location}
-				email={profile.email}
-				bio={profile.bio}
-				public_repos={profile.public_repos}
-			/> */}
 			<div className="oneday" style={style.header}>
 				Top Projects
 			</div>

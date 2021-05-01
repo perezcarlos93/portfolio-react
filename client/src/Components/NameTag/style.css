@@ -4,12 +4,13 @@
 
 /* Header div containing logo, name, and occupation tag */
 #NameTag {
-	font-size: 22vh;
+	font-size: 11vw;
 }
 
 #logo {
-	height: 25vh;
-	width: 25vw;
+	size: 25vw;
+	/* height: 25vw; */
+	/* width: 25vw; */
 	margin: 0, 0, 20px, 4rem;
 }
 #logo:hover {
