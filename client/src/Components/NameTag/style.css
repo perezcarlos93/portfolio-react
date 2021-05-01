@@ -4,14 +4,14 @@
 
 /* Header div containing logo, name, and occupation tag */
 #NameTag {
-	font-size: 18vh;
+	font-size: 11vw;
 }
 
 #logo {
-	max-height: 20vh;
-	max-width: 20vh;
-	margin-left: 4rem;
-	padding-bottom: 2rem;
+	size: 25vw;
+	/* height: 25vw; */
+	/* width: 25vw; */
+	margin: 0, 0, 20px, 4rem;
 }
 #logo:hover {
 	animation: shake 0.5s;
@@ -69,7 +69,6 @@
 	position: relative;
 	padding-left: 17.5vh;
 	font-size: 4vh;
-
 	color: rgba(255, 255, 255, 0.349);
 }
 

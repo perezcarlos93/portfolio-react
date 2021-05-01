@@ -9,13 +9,15 @@
 .techIcon {
 	margin-bottom: 6rem;
 	position: relative;
+	width: 11vh;
+	height: 11vh;
 	filter: grayscale(100%);
 	transition-duration: 0.5s;
 }
 .techIcon:hover {
 	filter: grayscale(0%);
 	transition-duration: 0.5s;
-	transform: scale(1.1);
+	transform: scale(1.2);
 }
 .techCol {
 	display: flex;
@@ -35,7 +37,7 @@
 	width: auto;
 	border-radius: 20px;
 	filter: grayscale(100%);
-	transition-duration: 10s;
+	transition-duration: 1s;
 	padding-top: 8vh;
 	margin: 0px 0px 100px 80px;
 }
@@ -115,4 +117,3 @@
 	max-width: 70%;
 	height: auto;
 	width: auto;
-}

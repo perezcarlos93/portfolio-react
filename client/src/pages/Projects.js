@@ -35,7 +35,7 @@ const Projects = () => {
 				"Parc-It is a React app that allows users to create profiles and find parks in their area, upload photos of the park, and add in info about amenities available at said park. In addition, a user can create a 'Team' where they can add their friends into and 'check-in' to a park to let their team members know they are present and looking for a round of their preferred activity",
 			contributions:
 				'For this project, I worked heavily on the Teams aspect. Using MongoDB with Mongoose, a user can create a new team which adds them to the team by default. The user can then add their friends based off their username and see the check-in status of each of their friends. In addition, I also focused on the front end design and folder structure, aiming to make the app as easily traversable to both clients and developers',
-			deployed: 'http://parc-it-anteater.herokuapp.com',
+			deployed: 'https://parcit-app.herokuapp.com/',
 			github: 'https://github.com/JHolden85/project3',
 			image: ParcIt,
 		},
@@ -54,14 +54,6 @@ const Projects = () => {
 
 	return (
 		<Container>
-			{/* <ProfileCard
-				login={profile.login}
-				html_url={profile.html_url}
-				location={profile.location}
-				email={profile.email}
-				bio={profile.bio}
-				public_repos={profile.public_repos}
-			/> */}
 			<div className="oneday" style={style.header}>
 				Top Projects
 			</div>
