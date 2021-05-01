@@ -1,151 +1,192 @@
-.techGallery {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	padding-top: 8vh;
-}
+/* Computer Screen Optimized */
+@media screen and (min-width: 720px) {
+	.techGallery {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		padding-top: 10rem;
+	}
 
-/* Group of tech icons as whole */
-.techIcon {
-	position: relative;
-	width: 11vh;
-	height: 11vh;
-	filter: grayscale(100%);
-	transition-duration: 0.5s;
-}
-.techIcon:hover {
-	filter: grayscale(0%);
-	transition-duration: 0.5s;
-	transform: scale(1.2);
-}
+	/* Group of tech icons as whole */
+	.techIcon {
+		margin-bottom: 6rem;
+		position: relative;
+		filter: grayscale(100%);
+		transition-duration: 0.5s;
+	}
+	.techIcon:hover {
+		filter: grayscale(0%);
+		transition-duration: 0.5s;
+		transform: scale(1.1);
+	}
+	.techCol {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-items: space-between;
+		margin: 0rem 3vw 0rem 3vw;
+	}
 
-/* Headshot */
+	/* Headshot */
 
-#headshot {
-	position: relative;
-	height: 94vh;
-	width: 75vh;
-	left: 3vh;
-	border-radius: 20px;
-	filter: grayscale(100%);
-	transition-duration: 1s;
-	padding-top: 8vh;
-	margin: 0px 0px 100px 80px;
-}
-#headshot:hover {
-	filter: grayscale(0%);
-	transition-duration: 1s;
-}
+	#headshot {
+		position: relative;
+		max-width: 80%;
+		height: auto;
+		width: auto;
+		border-radius: 20px;
+		filter: grayscale(100%);
+		transition-duration: 10s;
+		padding-top: 8vh;
+		margin: 0px 0px 100px 80px;
+	}
+	#headshot:hover {
+		filter: grayscale(0%);
+		transition-duration: 1s;
+	}
 
-/* 1920 x 1080 Screens */
-@media screen and (min-width: 1920px) {
 	/* Individual Icons */
 
 	#js {
-		left: 7rem;
-		top: 43rem;
-		height: 9rem;
+		max-width: 75%;
+		height: auto;
+		width: auto;
 	}
 	#mongoose {
-		top: 3rem;
-		width: 11.5rem;
+		max-width: 150%;
+		height: auto;
+		width: auto;
+		margin-top: 1rem;
+		margin-bottom: 5rem;
 	}
 	#node {
-		left: 4rem;
-		top: 14rem;
-		width: 11rem;
+		max-width: 130%;
+		height: auto;
+		width: auto;
 	}
 	#express {
-		left: 11rem;
-		top: 47rem;
-		width: 19.5rem;
+		max-width: 160%;
+		height: auto;
+		width: auto;
 	}
 	#mongo {
-		right: 9rem;
-		top: 6rem;
-		width: 8.5rem;
-		height: 8.5rem;
+		max-width: 110%;
+		height: auto;
+		width: auto;
 	}
 	#mysql {
-		left: 45rem;
-		width: 17rem;
-		height: 11rem;
+		max-width: 140%;
+		height: auto;
+		width: auto;
 	}
 	#html {
-		bottom: 2rem;
-		right: 1rem;
-		height: 9rem;
+		max-width: 75%;
+		height: auto;
+		width: auto;
 	}
 	#css {
-		left: 30rem;
-		bottom: 12rem;
-		height: 9rem;
+		max-width: 75%;
+		height: auto;
+		width: auto;
 	}
 	#github {
-		left: 3rem;
-		top: 2rem;
+		max-width: 70%;
+		height: auto;
+		width: auto;
 	}
 	#react {
-		left: 1rem;
-		bottom: 11rem;
-		width: 8rem;
+		max-width: 100%;
+		height: auto;
+		width: auto;
+	}
+	#bootstrap {
+		max-width: 70%;
+		height: auto;
+		width: auto;
 	}
 }
 
-/* 1280 x 720 Screens */
-@media screen and (min-width: 1280px) and (max-width: 1919px) {
-	/* Individual Icons */
+/* Tablet Screen Optimized */
+@media screen and (max-width: 719px) {
+	.techGallery {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		padding-top: 10rem;
+	}
 
+	/* Group of tech icons as whole */
+	.techIcon {
+		margin-bottom: 6rem;
+		position: relative;
+		filter: grayscale(100%);
+		transition-duration: 0.5s;
+	}
+	.techIcon:hover {
+		filter: grayscale(0%);
+		transition-duration: 0.5s;
+		transform: scale(1.1);
+	}
+	.techCol {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-items: space-between;
+		margin: 0rem 3vw 0rem 3vw;
+	}
+
+	/* Headshot */
+
+	#headshot {
+		position: relative;
+		max-width: 80%;
+		height: auto;
+		width: auto;
+		border-radius: 20px;
+		filter: grayscale(100%);
+		transition-duration: 10s;
+		padding-top: 8vh;
+		margin: 0px 0px 100px 80px;
+	}
+	#headshot:hover {
+		filter: grayscale(0%);
+		transition-duration: 1s;
+	}
+
+	/* Individual Icons hidden */
 	#js {
-		left: 1rem;
-		top: 25rem;
-		height: 6rem;
+		display: none;
 	}
 	#mongoose {
-		left: 29rem;
-		bottom: 12rem;
-		width: 8rem;
+		display: none;
 	}
 	#node {
-		right: 1rem;
-		top: 9rem;
-		width: 8rem;
-		height: 5rem;
+		display: none;
 	}
 	#express {
-		left: 3rem;
-		top: 29rem;
-		width: 13rem;
+		display: none;
 	}
 	#mongo {
-		right: 9rem;
-		top: 3rem;
-		width: 6rem;
-		height: 6rem;
+		display: none;
 	}
 	#mysql {
-		top: 4.5rem;
-		left: 18rem;
-		width: 13rem;
-		height: 8rem;
+		display: none;
 	}
 	#html {
-		top: 4rem;
-		right: 13rem;
-		height: 6rem;
+		display: none;
 	}
 	#css {
-		left: 9rem;
-		bottom: 2rem;
-		height: 6rem;
+		display: none;
 	}
 	#github {
-		right: 11rem;
-		top: 6rem;
+		display: none;
 	}
 	#react {
-		left: 22rem;
-		bottom: 17rem;
-		width: 5.5rem;
+		display: none;
+	}
+	#bootstrap {
+		display: none;
 	}
 }

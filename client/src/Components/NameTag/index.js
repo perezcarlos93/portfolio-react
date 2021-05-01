@@ -7,7 +7,8 @@ const NameTag = (props) => {
 	return (
 		<div className="row Tag">
 			<h1 className="oneday" id="NameTag">
-				<img id="logo" src={logo} alt="cp"></img> <span>{props.name}</span>
+				<img id="logo" src={logo} alt="cp"></img>{' '}
+				<span id="name">{props.name}</span>
 				<img id="bubble" src={helloworld} alt="#"></img>
 			</h1>
 		</div>

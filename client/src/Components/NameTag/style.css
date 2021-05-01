@@ -8,9 +8,9 @@
 }
 
 #logo {
-	size: 25vw;
-	/* height: 25vw; */
-	/* width: 25vw; */
+	max-width: 20%;
+	height: auto;
+	width: auto;
 	margin: 0, 0, 20px, 4rem;
 }
 #logo:hover {
