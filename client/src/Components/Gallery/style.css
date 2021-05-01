@@ -2,11 +2,12 @@
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
-	padding-top: 8vh;
+	padding-top: 10rem;
 }
 
 /* Group of tech icons as whole */
 .techIcon {
+	margin-bottom: 6rem;
 	position: relative;
 	width: 11vh;
 	height: 11vh;
@@ -18,14 +19,22 @@
 	transition-duration: 0.5s;
 	transform: scale(1.2);
 }
+.techCol {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-items: space-between;
+	margin: 0rem 3vw 0rem 3vw;
+}
 
 /* Headshot */
 
 #headshot {
 	position: relative;
-	height: 94vh;
-	width: 75vh;
-	left: 3vh;
+	max-width: 80%;
+	height: auto;
+	width: auto;
 	border-radius: 20px;
 	filter: grayscale(100%);
 	transition-duration: 1s;
@@ -37,115 +46,74 @@
 	transition-duration: 1s;
 }
 
-/* 1920 x 1080 Screens */
-@media screen and (min-width: 1920px) {
-	/* Individual Icons */
+/* Individual Icons */
 
-	#js {
-		left: 7rem;
-		top: 43rem;
-		height: 9rem;
-	}
-	#mongoose {
-		top: 3rem;
-		width: 11.5rem;
-	}
-	#node {
-		left: 4rem;
-		top: 14rem;
-		width: 11rem;
-	}
-	#express {
-		left: 11rem;
-		top: 47rem;
-		width: 19.5rem;
-	}
-	#mongo {
-		right: 9rem;
-		top: 6rem;
-		width: 8.5rem;
-		height: 8.5rem;
-	}
-	#mysql {
-		left: 45rem;
-		width: 17rem;
-		height: 11rem;
-	}
-	#html {
-		bottom: 2rem;
-		right: 1rem;
-		height: 9rem;
-	}
-	#css {
-		left: 30rem;
-		bottom: 12rem;
-		height: 9rem;
-	}
-	#github {
-		left: 3rem;
-		top: 2rem;
-	}
-	#react {
-		left: 1rem;
-		bottom: 11rem;
-		width: 8rem;
-	}
+#js {
+	max-width: 75%;
+	height: auto;
+	width: auto;
 }
-
-/* 1280 x 720 Screens */
-@media screen and (min-width: 1280px) and (max-width: 1919px) {
-	/* Individual Icons */
-
-	#js {
-		left: 1rem;
-		top: 25rem;
-		height: 6rem;
-	}
-	#mongoose {
-		left: 29rem;
-		bottom: 12rem;
-		width: 8rem;
-	}
-	#node {
-		right: 1rem;
-		top: 9rem;
-		width: 8rem;
-		height: 5rem;
-	}
-	#express {
-		left: 3rem;
-		top: 29rem;
-		width: 13rem;
-	}
-	#mongo {
-		right: 9rem;
-		top: 3rem;
-		width: 6rem;
-		height: 6rem;
-	}
-	#mysql {
-		top: 4.5rem;
-		left: 18rem;
-		width: 13rem;
-		height: 8rem;
-	}
-	#html {
-		top: 4rem;
-		right: 13rem;
-		height: 6rem;
-	}
-	#css {
-		left: 9rem;
-		bottom: 2rem;
-		height: 6rem;
-	}
-	#github {
-		right: 11rem;
-		top: 6rem;
-	}
-	#react {
-		left: 22rem;
-		bottom: 17rem;
-		width: 5.5rem;
-	}
+#mongoose {
+	/* width: 12rem; */
+	max-width: 150%;
+	height: auto;
+	width: auto;
+	margin-top: 1rem;
+	margin-bottom: 5rem;
 }
+#node {
+	/* width: 10rem;
+	height: 6rem; */
+	max-width: 130%;
+	height: auto;
+	width: auto;
+}
+#express {
+	/* height: 4rem;
+	width: 11.5rem; */
+	max-width: 160%;
+	height: auto;
+	width: auto;
+}
+#mongo {
+	max-width: 110%;
+	height: auto;
+	width: auto;
+	/* width: 130px;
+	height: 130px; */
+}
+#mysql {
+	max-width: 140%;
+	height: auto;
+	width: auto;
+	/* width: 10rem;
+	height: 6rem; */
+}
+#html {
+	/* top: 60px;
+	right: 25px; */
+	max-width: 75%;
+	height: auto;
+	width: auto;
+}
+#css {
+	/* left: 190px;
+	bottom: 210px; */
+	max-width: 75%;
+	height: auto;
+	width: auto;
+}
+#github {
+	max-width: 70%;
+	height: auto;
+	width: auto;
+}
+#react {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+#bootstrap {
+	max-width: 70%;
+	height: auto;
+	width: auto;
